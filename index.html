@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Soda Can Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <style>
+        canvas {
+            border: 1px solid #333;
+            display: block;
+            margin: 20px auto;
+        }
+        .controls {
+            text-align: center;
+            margin: 10px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <p>Left click + drag to rotate | Scroll to zoom</p>
+    </div>
+    <canvas id="glCanvas" width="800" height="600"></canvas>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
